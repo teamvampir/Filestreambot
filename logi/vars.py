@@ -10,7 +10,7 @@ class Var(object):
     API_ID = int(getenv('API_ID' , 17713634))
     API_HASH = str(getenv('API_HASH' , 'a8c943a69022fef3ac66accc7ba8ce6b'))
     BOT_TOKEN = str(getenv('BOT_TOKEN','6595425109:AAEpNTI3wmmZrXbWXw3IDpQxNgVchTucing'))
-    SESSION_NAME = str(getenv('SESSION_NAME', 'BQDBDtr4tZUsOnSNc5iNJDccmIq0yAv-XTZb_IB-k8fHcfT6d9m1BUTruInxo2fuH2ULXEa4mPzyJ0hZ8fmUjnej2bn8jerZOrIupI61sXOdbXSz_7goGy7h4EcS4JFtF-sq0oxKH_ci0inVJMwkhsBNMDDQsOMCSrdkVPsbKzaoNyoUX9Yth4cN_grYvApeHc1_Qhr9t6dVsrGYXrRiLiY5DpaJKoyU3yXom5lTYfuhUmIIqV1amwFkmviig4A8dUkZvpIUgR6lF6zrt6-dfGbjk2R4Ny18s_lZiESQfqZHXJtrMwZBoZphGLw9OR7Ng8mSW5RIxgKDXWXcWVORGuaNAAAAAVbzYxwA'))
+    SESSION_NAME = str(getenv('SESSION_NAME', 'filestreambot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL','-1001865295027'))
