@@ -13,13 +13,13 @@ class Var(object):
     SESSION_NAME = str(getenv('SESSION_NAME', 'filestreambot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL',-1001805179817))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL',-1001770039008))
     PORT = int(getenv('PORT', 7777))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '157.245.106.32'))
-    OWNER_ID = int(getenv('OWNER_ID', '1955509952'))
+    OWNER_ID = int(getenv('OWNER_ID', 5432224567))
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME','cl_me_logesh'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME','sweetie_aadhay'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME'))
