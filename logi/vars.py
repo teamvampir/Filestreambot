@@ -29,5 +29,5 @@ class Var(object):
     URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
         "http://{}:{}/".format(FQDN, PORT)
     DATABASE_URL = str(getenv('DATABASE_URL','mongodb+srv://logi:logi@logimee.ufrkju8.mongodb.net/databasefs'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', -1001865295027))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'TEAM_VAMPIR'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split()))
