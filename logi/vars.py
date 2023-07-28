@@ -28,6 +28,6 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
         "http://{}:{}/".format(FQDN, PORT)
-    DATABASE_URL = str(getenv('DATABASE_URL','mongodb+srv://logi:logi@logimee.ufrkju8.mongodb.net/?retryWrites=true&w=majority))
+    DATABASE_URL = str(getenv('DATABASE_URL','mongodb+srv://logi:logi@logimee.ufrkju8.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', -1001865295027))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split()))
